@@ -166,6 +166,7 @@ def calculate_start_char():
     print("Y:", y, " (", round(y / line_count * 100, 2), "%)", sep="")
     print("Z:", z, " (", round(z / line_count * 100, 2), "%)", sep="")
     print("Other: ", other, " (", round(other / line_count * 100, 2), ")", sep="")
+    fin.close()
 
 
 def print_results():
