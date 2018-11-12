@@ -1,6 +1,11 @@
-# word = input("Enter a specific word: ").strip().lower()
-# fin = open("words_alpha.txt")
+'''
+CIS 122 Fall 2018 Lab 7
+Author: Jacob Rammer
+Partner: None
+Description: Search the contents of a file
+'''
 
+#  Ask for input and loop until nothing is entered
 # Loop until nothing entered
 while True:
     # Prompt for input
@@ -40,19 +45,3 @@ while True:
         print("Word " + word + " found")
     else:
         print("Word " + word + " not found")
-
-# checker = False
-# for i in fin:
-#     i = i.strip().lower()
-#
-#     if len(word) == 0:
-#         break
-#
-#     elif word == i:
-#         checker = True
-#         break
-#
-# if checker:
-#     print("Word:", word)
-# else:
-#     print("Word ", word, "not found")
