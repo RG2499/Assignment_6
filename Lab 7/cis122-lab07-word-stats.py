@@ -33,7 +33,6 @@ def longest_word():
             doc_longest_word = line
     fin.close()
     return doc_longest_word
-    #  print("Longest word is: ", longest_word, " (", len(longest_word), ")", sep="")
 
 
 def shortest_word():
@@ -50,7 +49,6 @@ def shortest_word():
             break
     fin.close()
     return doc_shortest_word
-    #  print("Shortest word is: ", shortest_word, " (", len(shortest_word), ")", sep="")
 
 
 def is_palindrome():
@@ -58,7 +56,6 @@ def is_palindrome():
     Search whole document for palindromes (words that are the same reversed)
     :return: Number of palindromes
     """
-    line_count = count()
     palindrome = 0
     fin = open("words_alpha.txt")
     for line in fin:
@@ -68,7 +65,6 @@ def is_palindrome():
             palindrome += 1
     fin.close()
     return palindrome
-    #  print("Palidromes: ", palindrome, "(", round(palindrome / line_count * 100, 2), "%)", sep="")
 
 
 def calculate_start_char():
@@ -185,9 +181,4 @@ def print_results():
     calculate_start_char()
 
 
-# count()
-# longest_word()
-# shortest_word()
-# is_palindrome()
 print_results()
-# calculate_start_char()
