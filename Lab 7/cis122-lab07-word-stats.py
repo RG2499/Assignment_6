@@ -52,6 +52,7 @@ def shortest_word():
 
 
 def is_palindrome():
+
     """Determine if a word is a palindrome
     Search whole document for palindromes (words that are the same reversed)
     :return: Number of palindromes
