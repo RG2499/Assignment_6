@@ -14,7 +14,6 @@ def count():
     fin = open("words_alpha.txt")
     line_count = 0
     for line in fin:
-        line = line.strip()
         line_count += 1
     fin.close()
     return line_count
@@ -52,7 +51,6 @@ def shortest_word():
 
 
 def is_palindrome():
-
     """Determine if a word is a palindrome
     Search whole document for palindromes (words that are the same reversed)
     :return: Number of palindromes
@@ -178,7 +176,7 @@ def print_results():
 
     print("Longest word is: ", doc_longest_word, " (", len(doc_longest_word), ")", sep="")
     print("Shortest word is: ", doc_shortest_word, " (", len(doc_shortest_word), ")", sep="")
-    print("Palidromes: ", palindrome, "(", round(palindrome / line_count * 100, 2), "%)", sep="")
+    print("Palindromes: ", palindrome, "(", round(palindrome / line_count * 100, 2), "%)", sep="")
     calculate_start_char()
 
 
