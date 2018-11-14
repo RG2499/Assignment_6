@@ -24,7 +24,7 @@ while True:
             elif line[0:1].isdigit():  # Counts lines that are integers
                 line_count += 1
                 total += int(line)  # Calculates the total of all integers in file
-        fin.close()ssdf
+        fin.close()
 
         pad_right("Count:", label_spacing), pad_left(str(line_count), num_spacing)
         pad_right("Comments:", label_spacing), pad_left(str(comments), num_spacing)
