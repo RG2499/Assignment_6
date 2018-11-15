@@ -6,7 +6,7 @@ Description: Python Shared Code Module
 '''
 
 
-def pad_string(string, space):  # No idea what I'm supposed to do with this
+def pad_string(string, space):
     """Does nothing at the moment
     Longer description
     :param string (STR): String to be formatted
